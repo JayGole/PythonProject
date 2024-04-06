@@ -12,14 +12,6 @@ Our solver will utilize the backtracking technique. Imagine navigating a maze â€
 * **Solver Function:** This function implements the backtracking logic. It iterates through empty cells, attempting to place valid numbers (1-9) that adhere to Sudoku rules. If a valid placement is found for all cells, the puzzle is solved!
 * **Validation Functions:** These functions ensure each move follows Sudoku rules. They check for duplicates in rows, columns, and the 3x3 subgrids (boxes).
 
-**Project Structure:**  
-
-We can organize the code into modules for better readability:
-
-* `board.py`: Defines the `SudokuBoard` class
-* `solver.py`: Implements the backtracking solver function
-* `validator.py`: Contains functions for Sudoku rule validation
-* `main.py`: The main script that interacts with the other modules, potentially allowing users to input a Sudoku puzzle and displaying the solved version.
 
 **Beyond the Basics:**
 
